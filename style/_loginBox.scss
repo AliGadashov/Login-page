@@ -1,0 +1,11 @@
+.loginBox {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    @include flexCenter();
+    backdrop-filter: blur(15px);
+  }
+  
